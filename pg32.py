@@ -1,0 +1,5 @@
+string = input("Enter a string: ")
+words = string.split()
+words.reverse()
+new_string = " ".join(words)
+print("The string with reversed words is:", new_string)
